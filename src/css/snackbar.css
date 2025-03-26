@@ -1,0 +1,104 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Стиль для самой формы */
+.form {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Заголовок формы (если нужно добавить) */
+.form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Стили для всех меток (label) */
+label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+/* Стили для полей ввода */
+input[type='number'],
+input[type='radio'] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Стили для радио кнопок */
+input[type='radio'] {
+  width: auto;
+}
+
+/* Отступы и стили для кнопки */
+button[type='submit'] {
+  background-color: #4caf50;
+  color: white;
+  font-size: 16px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 20px;
+  box-sizing: border-box;
+}
+
+button[type='submit']:hover {
+  background-color: #45a049;
+}
+
+/* Стили для fieldset */
+fieldset {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid #ddd;
+  padding: 10px 15px;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+/* Стили для legend */
+legend {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  padding: 0 10px;
+}
+
+/* Стили для меток внутри fieldset */
+fieldset label {
+  display: inline-block;
+  margin-right: 15px;
+  font-size: 14px;
+}
+
+/* Стили для радиокнопок внутри fieldset */
+fieldset input[type='radio'] {
+  margin-right: 5px;
+}
+
+/* Стили для обязательных полей */
+input:required {
+  border-color: #f44336;
+}
