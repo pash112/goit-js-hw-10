@@ -9,7 +9,6 @@ body {
   height: 100vh;
 }
 
-/* Стиль для самой формы */
 .form {
   background-color: #fff;
   border-radius: 8px;
@@ -19,13 +18,11 @@ body {
   max-width: 400px;
 }
 
-/* Заголовок формы (если нужно добавить) */
 .form h2 {
   text-align: center;
   margin-bottom: 20px;
 }
 
-/* Стили для всех меток (label) */
 label {
   display: block;
   font-size: 16px;
@@ -33,7 +30,6 @@ label {
   color: #333;
 }
 
-/* Стили для полей ввода */
 input[type='number'],
 input[type='radio'] {
   width: 100%;
@@ -45,12 +41,10 @@ input[type='radio'] {
   box-sizing: border-box;
 }
 
-/* Стили для радио кнопок */
 input[type='radio'] {
   width: auto;
 }
 
-/* Отступы и стили для кнопки */
 button[type='submit'] {
   background-color: #4caf50;
   color: white;
@@ -68,7 +62,6 @@ button[type='submit']:hover {
   background-color: #45a049;
 }
 
-/* Стили для fieldset */
 fieldset {
   display: flex;
   justify-content: space-around;
@@ -78,7 +71,6 @@ fieldset {
   border-radius: 5px;
 }
 
-/* Стили для legend */
 legend {
   font-size: 18px;
   font-weight: bold;
@@ -86,19 +78,16 @@ legend {
   padding: 0 10px;
 }
 
-/* Стили для меток внутри fieldset */
 fieldset label {
   display: inline-block;
   margin-right: 15px;
   font-size: 14px;
 }
 
-/* Стили для радиокнопок внутри fieldset */
 fieldset input[type='radio'] {
   margin-right: 5px;
 }
 
-/* Стили для обязательных полей */
 input:required {
   border-color: #f44336;
 }
